@@ -1,0 +1,51 @@
+    body {
+      font-family: Arial, sans-serif;
+      /* background-color: #c41c1c; */
+	  background-image: url(https://wallpaperaccess.com/full/3518778.jpg);
+     background-position: center;
+	 background-size: cover; 
+	  padding: 20px;
+	  height: 100vh;
+    }
+
+    h1 {
+      text-align: left;
+    }
+
+    .converter {
+      width: 100vh;
+	  height: 50vh;
+      margin-right:20vh;
+      background-color: #1ad5ad5b;
+      border-radius: 5px;
+      padding: 20px;
+    }
+
+    .converter label {
+      display: block;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+
+    .converter input[type="number"] {
+      width: 100%;
+      padding: 5px;
+      border-radius: 3px;
+      border: 1px solid #ccc;
+    }
+
+    .converter button {
+      width: 100%;
+      padding: 10px;
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+    .result {
+      margin-top: 20px;
+      text-align: center;
+      font-weight: bold;
+    }
